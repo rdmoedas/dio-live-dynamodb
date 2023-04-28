@@ -1,5 +1,8 @@
-# dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+# dio-dynamo-project
+
+Projeto criado durante o bootcamp de Java do Banco Pan
+
+https://github.com/cassianobrexbit/dio-live-dynamodb
 
 ### Serviço utilizado
   - Amazon DynamoDB
@@ -103,6 +106,9 @@ aws dynamodb query \
 ```
 
 - Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
+
+A criação nesse index apresentou erro. Corrigi criando pelo console da aws
+
 
 ```
 aws dynamodb query \
